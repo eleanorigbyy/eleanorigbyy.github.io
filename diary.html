@@ -1,0 +1,236 @@
+<DOCTYPE! <!DOCTYPE html>
+<html lang="tr">
+  <head>
+<meta   charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sevdenur Özkan</title>
+<!-- boootstrap-->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/diary.css" rel="stylesheet">
+<link href="css/navbar.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+<header>
+
+  <ul class="nav  justify-content-center ">
+
+
+    <li class="nav-item ">
+      <a class="nav-link red" href="index.html">Works</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link red" href="about.html">About</a>
+    </li>
+
+  </ul>
+</header>
+
+<div class="container">
+
+
+<div class="col-md-8 offset-md-2">
+<p class="title">Diary for Projects</p>
+<p class="definition">It's a diary for design and programming projects to share with people.
+</p>
+<p class="subtitle">1.Problem</p>
+<p class="definition">
+  Nearly three or four years ago, I've created an Instagram account to get inspiration from people who have been learning to code and sharing their journey. Every day, they were writing what they're doing. It made me inspired to see them trying to learn something.
+
+</p>
+<p class="definition">
+When I created an Instagram account, it wasn't easy to find people who share their design or programming journey. After lots of research, I got it, found people. But people weren't just sharing their journey. They were also posting some personal life stuff too. But I didn't care about their personal life. I was there because of their learning journey to be inspired.
+  To be honest, those posts were just a distraction for me. Despite all of this, I  was continuing to follow them. Because I needed that inspiration, motivation.
+</p>
+
+<p class="subtitle">2.Solution</p>
+<p class="definition">
+  After years, I was sitting on the couch and looking at those Instagram accounts(I know, It's so cliche, but that's the truth). Suddenly, something happened. I don't know how or why but it happened. And the idea of this project came to my mind surprisingly.
+  I thought, what if there was an online diary for people to just share their design and coding journey every day? Not the other stuff, just diary for design and coding.
+
+</p>
+
+<p class="subtitle">3.Research</p>
+<p class="definition">After the idea hit me, I tried to reach  as many people as possible who have been sharing their journey. And I asked them one question:
+</p>
+<ul class="definition" style="list-style-type:circle;">
+<li>Why did you decide to share this learning process on social media?</li>
+
+</ul>
+
+<p class="definition">Then I divided all the user answers into three groups in the fishbone diagram.
+</p>
+<ul class="definition" style="list-style-type:circle;">
+<li>User</li>
+<li>Software</li>
+<li>Other People</li>
+</ul>
+<img src="diary/fishbone_diagram.png" class="picture" />
+
+<p class="definition">
+  After, I translated user answers to user stories to understand their motivations and needs.
+</p>
+
+<ul class="definition" style="list-style-type:circle;">
+<li>I wanted to<u> gain recognition from people </u>so <u>I could stay committed to the learning process every day.</u></li>
+<li>I wanted to <u>follow other people</u> so<u> I could check my account for getting inspiration and learning new things, sources, etc.</u></li>
+<li>I wanted to <u>share my process with others</u> so <u>I could find the motivation to go on.</u></li>
+</ul>
+<p class="definition">And I specified features under two main titles.
+</p>
+
+
+<div class="row">
+
+<div class="col-md-6">
+  <p class="screensname">Share the Process</p>
+  <ul class="definition" style="list-style-type:circle;">
+  <li>Different workspaces/projects</li>
+  <li>Add new stories for every workspace/project</li>
+  <li>Comment</li>
+  </ul>
+</div>
+
+<div class="col-md-6">
+  <p class="screensname">Get Inspiration</p>
+  <ul class="definition" style="list-style-type:circle;">
+  <li>Explore and follow people</li>
+  <li>Search</li>
+  <li>Check stories</li>
+  <li>Bookmark</li>
+  </ul>
+</div>
+
+  </div>
+
+
+<p class="subtitle">4.Model</p>
+
+
+
+<p class="title3">4.1.User Flow</p>
+<img class="picture" src="diary/userflow.png"/>
+
+<p class="title3">4.2.Sketching initial ideas</p>
+<div id="carouselExampleControls" class="carousel slide slide " data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="diary/sketch2.jpg" alt="registration">
+    </div>
+
+    <div class="carousel-item ">
+      <img class="d-block w-100" src="diary/sketch1.jpg" alt="main">
+
+    </div>
+
+
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" style="background-color:#f15455" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"style="background-color:#f15455" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+<p class="title3">4.3.Screens</p>
+<p class="definition">
+  I tried to design screens as simple as possible.
+</p>
+<p class="screensname">1)Home Page</p>
+<p class="definition">
+  I decided to show all users' posts on the home page. But, for instance, if they want to see only designers' posts then they can choose designers category. Users can bookmark a story. Also, they only search for people.
+</p>
+<img src="diary/home.png" class="picture" />
+
+
+
+<p class="screensname">2)Explore Page</p>
+<p class="definition">
+  If users want to find new people to follow, the explore page is the right place.
+  </p>
+
+<img src="diary/explore.png" class="picture" />
+
+
+<p class="screensname">3)Add Story Page</p>
+<p class="definition">
+People must choose a project to add a story. If there is no project, they can create a new one.
+<img src="diary/add_story.png" class="picture" />
+
+
+<p class="screensname">4)User's Profile Page</p>
+<p class="definition">
+  Users can see their projects, stories on their profile page. The following link on their profile page shows them how many users they follow. But any user can't see their followers.
+</p>
+<img src="diary/user_profile.png" class="picture" />
+
+
+<p class="screensname">5)Following Page</p>
+<p class="definition">Users can see who they follow and unfollow accounts from that page if they don't want to follow them anymore.
+</p>
+<img class="picture" src="diary/following.png" />
+
+
+<p class="screensname">6)Other Users' Profile Page </p>
+<p class="definition">Users can see all the other users' workspaces and stories.
+</p>
+
+<img class="picture" src="diary/other_users_profile.png" />
+
+<p class="screensname">7)Project Page</p>
+<p class="definition">
+Users can tell about the project. Also, this section can be used to see all the stories of the project.
+</p>
+<img src="diary/project.png" class="picture" />
+
+
+<p class="screensname">8)Story Page</p>
+<p class="definition">
+  People can comment to explain their thoughts about the story on this page.
+</p>
+
+<img src="diary/story.png" class="picture" />
+
+<p class="title3">4.4.Little Interactions</p>
+
+<img src="diary/add_story.gif" class="gif" />
+
+<img src="diary/follow.gif" class="gif" />
+
+<img src="diary/category.gif" class="categorygif" />
+
+
+
+<p class="subtitle">5.Conclusion</p>
+<p class="definition" style="margin-bottom:50px;"> This project has been a challenging and fun experience for me.
+I had a very short timeline, but I'm glad that I was able to become more comfortable with all the Ux process.
+</p>
+
+
+</div>
+</div>
+
+  </body>
+
+
+</html>
+
+
+
+</DOCTYPE!>

@@ -1,0 +1,82 @@
+.title{
+  color:#FEC269;
+  font-size: 32px;
+  font-family:'Open Sans', sans-serif;
+  font-weight:700;
+margin-top: 60px;
+}
+
+.definition{
+  color:#9D9D9D;
+  font-size: 15px;
+  font-family:'Open Sans',monospace;
+  font-weight:500;
+
+
+}
+
+.subtitle{
+  color:#FEC269;
+  font-size: 24px;
+  font-family:'Open Sans', sans-serif;
+  font-weight:700;
+  margin-top:26px;
+}
+
+.title3{
+  color:#FEC269;
+  font-size: 19px;
+  font-family:'Open Sans', sans-serif;
+  font-weight:700;
+}
+
+.picture{
+  max-width:100%;
+  max-height: 100%;
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+  margin-bottom:60px;
+  margin-top: 15px;
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.085);
+}
+
+.screensname{
+color:#9D9D9D;
+font-size: 16px;
+font-family:'Open Sans',monospace;
+font-weight:700;
+
+}
+
+.em-svg{
+  font-size:10px;
+
+}
+
+.gif{
+  max-width:65%;
+  max-height: 65%;
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+  margin-bottom:20px;
+  margin-top: 0px;
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.085);
+}
+
+.categorygif{
+  max-width:25%;
+  max-height: 25%;
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+  margin-bottom:20px;
+  margin-top: 0px;
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.085);
+}
+
+.slide{
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.085);
+margin-bottom:50px;
+}
