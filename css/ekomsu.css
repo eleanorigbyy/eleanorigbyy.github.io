@@ -49,10 +49,7 @@ font-weight:700;
 
 }
 
-.carousel-control-next,
-.carousel-control-prev {
-    filter: invert(100%);
-}
+
 
 .slide{
   box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.085);
