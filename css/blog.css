@@ -1,0 +1,101 @@
+
+
+
+
+.categories span.category1{
+  height: 12px;
+  width: 12px;
+
+  display: inline-block;
+  background-color:#FEC269;
+  margin-right:8px;
+}
+
+.categories span.category2{
+  height: 12px;
+  width: 12px;
+
+  display: inline-block;
+  background-color:#3E98A8;;
+  margin-right:8px;
+  margin-left: 16px;
+
+}
+
+.categories span{
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #505F79;
+}
+
+.section {
+  margin-bottom:32px;
+
+}
+
+.section .title a{
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: #344563;;
+
+}
+
+.section .title a:hover{
+  color:#8993A4;
+}
+
+.section .title span.category1{
+height: 12px;
+width: 12px;
+
+display: inline-block;
+background-color:#FEC269;
+margin-right:8px;
+
+}
+
+.section .title span.category2{
+height: 12px;
+width: 12px;
+
+display: inline-block;
+background-color:#3E98A8;
+margin-right:8px;
+
+}
+
+.section .definition p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #505F79;
+padding-top: 5px;
+margin-bottom: 0;
+}
+
+
+
+.container{
+  margin-top:30px;
+}
+
+.row{
+  margin-bottom:50px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+a:hover {
+  text-decoration: none;
+}

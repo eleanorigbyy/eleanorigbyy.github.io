@@ -1,8 +1,10 @@
 .red{
-  color:#f15455;
-  font-family:'Open Sans', sans-serif;
-  font-weight:600;
-  font-size:13px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  color: #F1595A;
   margin-bottom: 30px;
   margin-top: 20px;
 }
