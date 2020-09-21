@@ -16,9 +16,7 @@
     </script>
     <meta name="description" content="E-Komsu">
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>E-Komsu</title>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <title>Sevdenur Özkan</title>
     <!-- boootstrap-->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/ekomsu.css" rel="stylesheet">
@@ -54,11 +52,13 @@
     </header>
 
     <div class="container">
-
-
+      <!--
+      <img class="picture" style="margin-bottom:40px" src="ekomsu/onizleme3.png" />
+-->
       <div class="col-md-8 offset-md-2">
+        <img class="picture" style="margin-bottom:40px" src="ekomsu/onizleme3.png" />
         <div class="section">
-          <span class="title">E-Komsu</span>
+          <span class="title">Strengthening neighbors' communication</span>
           <div class="quickfact">
             <div class="row">
               <div class="col-md-6">
@@ -74,13 +74,15 @@
             </div>
           </div>
 
-          <p>This project which I designed in college is a private social network for neighborhoods. With this application, users can interact with their neighbors, discuss community news, buy or sell items, organize events, and recommend places, services,
-            etc.
+          <p>
+            This one is my experience of designing "E-Komsu" -a web app for neighborhoods to become more communicative.
           </p>
-          <img class="picture" style="margin-bottom:40px" src="ekomsu/onizleme3.png" />
 
 
 
+        </div>
+        <div class="tag">
+          <span>INTRO</span>
         </div>
 
         <div class="section">
@@ -88,141 +90,323 @@
             <span>It all was the cloud of dust.</span>
           </div>
           <p>
-            In the last year of my university life, I had to do a project. I wanted to work on a project that I can be more familiar with the UX design methodologies. After I had kept a balance with my advisor between my expectations and the requests of the department,
-            we started the project process. To determine the idea of the project, we focused on the problems we witnessed in our daily life and tried to do some observations.
+            In the last year of my university life, I wanted to work on a project that I can be more familiar with "the design thinking process" and worked on this project. I was responsible for the research, visual design, and front‑end development.
           </p>
+
 
         </div>
 
         <div class="tag">
-          <span>THE PROBLEM</span>
+          <span>THE IDEA</span>
         </div>
         <div class="section">
           <div class="subtitle-frame">
             <span>Who are the people in your neighborhood?</span>
           </div>
           <p>
-            In my country, Turkey, neighborhoods used to be places where people socialized and discussed their daily happenings. But <b>now this tradition seems to have disappeared in big cities for a broad age range. People who live in the same building, street, or
-            neighborhood don’t even know each other, and this situation has some challenges.</b> </p>
-          <blockquote class="blockquote text-center">
-            <p class="mb-0"><i>Even in the smallest of matters, one neighbor can help another.</i></p>
-            <footer class="blockquote-footer">Turkish proverb<cite title="Source Title"></cite></footer>
-          </blockquote>
-          <p>
-            So <b>my mission was to help individuals in order to strengthen communication between their neighbors</b> and make them informed with all neighborhood happenings.
+            In my country, Turkey, neighborhoods used to be places where people socialized and discussed their daily happenings. But now this tradition seems to have disappeared in big cities. People who live in the same building, street, or neighborhood don’t even
+            know each other, and this situation has some challenges.
           </p>
+          <div class="question-frame">
+            <i class="em  em-dart"></i><span>So my goal for this project was to take advantage of technology to strengthen communication in neighborhoods. </span>
+          </div>
+
+
         </div>
         <div class="tag">
-          <span>THE DISCOVERY</span>
+          <span>EMPATHIZE</span>
         </div>
         <div class="section">
           <div class="subtitle-frame">
             <span>And the oscar goes to our target users? </span>
           </div>
+
           <p>
-            To get to know people, how they live, what they do, and how they interact with each other, I started user research with a series of interviews.
+            First of all, to empathize with people to understand their experiences and motivations, I started the user research with contextual interviews with random 30 people of all ages between 20-75 to find out what people think about the current existence of
+            neighborliness and the way of their living in neighborhood.
           </p>
-          <p>
-            At first, <b>I reached out to 30 people of all ages between 20-75 to determine the age range of the project. </b>I wanted to learn how strong and effective their relationship with the people living in the same apartment or street.
-          </p>
+
+          <div class="group_of_pictures">
+            <div class="row">
+              <div class="col-md-4">
+                <img class="research_picture" src="ekomsu/research/1.jpg" />
+              </div>
+
+              <div class="col-md-4">
+                <img class="research_picture" src="ekomsu/research/3.jpg" />
+              </div>
+
+              <div class="col-md-4">
+                <img class="research_picture" src="ekomsu/research/2.jpg" />
+              </div>
+            </div>
+          </div>
+
+
+          <!--
           <div class=" gif-section text-center ">
             <img src="neighbor.gif" class="gif-section-img">
-            <!--
+
+          </div> -->
+
+        </div>
+        <div class="section">
+          <h3>Do people have strong ties with their neighbours than before in big cities?</h3>
+          <p>
+            While some people stated that neighborhood relations in big cities are not as strong as before, some of them said that this fact depends on where they live.
+          </p>
+        </div>
+
+        <div class="section">
+          <h3>Well, for them, what are the reasons for this decrease?</h3>
+          <p>
+            I divided all the answers into three groups in the fishbone diagram. (You can see it below).
+          </p>
+          <img class="research_picture" src="ekomsu/research/fishbone.png" />
+        </div>
+
+        <div class="section">
+          <h3>Do they care about the neighborhood culture?</h3>
+          <p>
+            According to the answers given, people in their 50s or older have communication with their neighbors and they still attach great importance to the sense of neighborliness. But, 30 % of the other people I interviewed think in a more individual way like
+            "why I have to keep in touch with people just because they're living in my apartment?", while the other 70% of them want to communicate with neighbors but don't make an effort for that.
+          </p>
+
+        </div>
+
+        <div class="section">
+          <div class="subtitle-frame">
+            <span>What are my observations?</span>
+          </div>
+          <div class="quote">
+            <span>
+"Positive changes in the socio-economic terms lead to the weakening of neighborhood culture."
+  </span>
+          </div>
+
+          <p>
+            I think we should focus on two different terms when we need to describe the current existence of neighborliness.
+          </p>
+          <div class="list">
+            <ul>
+              <li>Age</li>
+              <li>Income</li>
+
+            </ul>
+          </div>
+          <p>
+            If we speak about income, positive changes in the socio-economic terms lead to the weakening of neighborhood culture. People with high income expect from neighbors to not share their private life. In the rush of work-life, since the house becomes a place
+            to rest, it is unnecessary to communicate with neighbors for them while they have already family and friends.
+          </p>
+
+
+        </div>
+        <div class="tag">
+          <span>DEFINE</span>
+        </div>
+        <div class="section">
+          <div class="subtitle-frame">
+            <span>Who are they? What do they need?</span>
+          </div>
+
+
+          <p>
+            After finished informative interviews and observations, to get these impressions out, I used personas to help me do that.
             <p>
-              <a href="https://giphy.com/gifs/season-2-the-simpsons-2x6-3o6Mb72JDvls9JjeG4">Source</a>
+              Through the analysis of my research data, to place people in different corners, and to be able to create personas according to the differences, I identified three different labels: </p>
+            <div class="list">
+              <ul>
+                <li>Communication with neighbors</li>
+                <li>Social life</li>
+                <li>Local commitment</li>
+              </ul>
+            </div>
+
+            <P>
+              Then with the benefit of using these labels, I defined four different personas that I used to simplify the understanding of user goals, needs, limitations.
+            </P>
+            <p>
+              (I mainly focused on supporting the goals of primary personas, then secondary personas.)
             </p>
--->
-          </div>
-
-          <p>
-            I observed that the people in their 40s or older have communication with their neighbors and they still attach great importance to the sense of neighborliness. 30 % of all the people aged between 20-40 think in a more individual way like "why I have to
-            keep in touch with people just because they're living in my apartment?", while the other 70% of them want to communicate with neighbors but don't make an effort for that.
-          </p>
-
-          <p>
-            Based on all that observation, I didn't identify the people in their 40s and older as a part of target users since all of them already communicate somehow. <b>The age range of target users was between 20-40.</b>
-          </p>
-
 
         </div>
+      </div>
 
+      <div class="col-md-12 ">
         <div class="section">
-          <div class="subtitle-frame">
-            <span>Choosing the right area</span>
-          </div>
-          <p>
-            Then, by taking advantage of these results, I first started to research the population age groups of Sakarya( where I lived at that time) to determine which district we should choose for this project. <b>My goal was to find the district with the highest
-            proportion of young population (aged between 20-40) to the total population.</b>
-          </p>
-
-          <p>
-            The total population of Sakarya province was 990,214 in 2017. People aged between 20-40 made up 31% of the total population. After, I looked into the proportion of people aged between 20-40 to the total district population for every district in Sakarya.
-            Serdivan was ranked first with 36.6% among districts in Sakarya. With that rate, I found out that Serdivan is the right place for the project.
-          </p>
-          <img class="chart" src="ekomsu/chart.png" />
-
-        </div>
-
-        <div class="section">
-          <div class="subtitle-frame">
-            <span>Identifying people's problems</span>
-          </div>
-          <p>
-            After I had decided on choosing Serdivan as the right place for the project, <b> I conducted interviews with 10 people aged between 20-40 to learn about the problems and the experiences they had during the time they spent there.</b>
-          </p>
-
-          <p>
-            It was really necessary to identify the users to understand who it is I was designing for. All of them had requests and problems about their neighborhoods according to their lifestyle.
-          </p>
-          <p>
-            Going from there, research revealed distinct needs for two groups:
-          </p>
 
 
           <div class="row">
             <div class="col-md-6">
-              <p>
-                <u><b>The ones who have social problems</b></u>
-              </p>
-              <div class="list">
-                <ul>
-                  <li>Making friends</li>
-                  <li>Learning and sharing events</li>
-                  <li>Exploring good restaurants etc.</li>
-                </ul>
-              </div>
-
-
+              <img class="research_picture" src="ekomsu/research/squad.png" />
             </div>
             <div class="col-md-6">
-              <p>
-                <u><b>The ones who have general life problems</b></u>
-              </p>
-              <div class="list">
-                <ul>
-                  <li>Basic needs</li>
-                  <li> Security problems</li>
-                  <li>Public services</li>
-                </ul>
-              </div>
-
-
-
+              <img class="research_picture" src="ekomsu/research/female_persona.png" />
             </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <img class="research_picture" src="ekomsu/research/young_male_persona.png" />
+            </div>
+            <div class="col-md-6">
+              <img class="research_picture" src="ekomsu/research/old_male_persona.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8 offset-md-2">
+
+        <div class="section">
+          <div class="subtitle-frame">
+            <span> Defining the problem</span>
+          </div>
+          <h3>What do I want to achive?</h3>
+          <p>
+            To set out the specific challenges I will address, I defined a clear problem statement for primary and secondary personas in a goal-oriented manner. </p>
+          <img class="research_picture" src="ekomsu/research/pov.png" />
+        </div>
+
+        <div class="tag">
+          <span>IDEATION</span>
+        </div>
+        <div class="section">
+          <div class="subtitle-frame">
+            <span>Questions that open up to ideation session</span>
+          </div>
+          <h3>
+          Using how might we technique
+          </h3>
+          <p>
+            After I'd defined problem statements, I started asking “How Might We?” questions to make throwing all ideas out there easy. </p>
+          <img class="research_picture" src="ekomsu/research/hmw.png" />
+        </div>
+
+        <div class="section">
+          <div class="subtitle-frame">
+            <span>Generating ideas</span>
+          </div>
+          <p>
+            Taking all ideas out of my mind and organize them was my first job at this stage. To achieve that, I've personally chose "mind mapping technique". First of all, I wrote down problem statements then solutions and ideas that comes to my mind.
+          </p>
+          <img class="research_picture" src="ekomsu/research/mindmap.png" />
+        </div>
+
+        <div class="section">
+          <div class="subtitle-frame">
+            <span>Examining ideas with value-added analysis method</span>
+          </div>
+          <p>
+            To choose all the ideas that actually add value to the lives of the users, I've decided to use "value-added analysis technique".
+          </p>
+
+          <p>
+            Value-added analysis is a method to identify ideas to eliminate unnecessary ones and enhance the impact of the product for users. I extracted every idea in the mind map and classified them into one of three categories, namely:
+          </p>
+
+          <p>
+            <b>Value-adding ideas </b>
+          </p>
+          <p>
+            Produces value or satisfaction for the user. When determining whether or not a idea is value-adding, I asked the following questions:
+          </p>
+          <div class="list">
+            <ul>
+              <li>Would the user agree that this idea is neccesary to achieve their goals? </li>
+              <li>If this idea is removed, would the user perceive that the product is less valuable?</li>
+
+            </ul>
+          </div>
+
+
+          <p>
+            <b>Product value-adding ideas </b>
+          </p>
+          <p>
+            For this ideas, the criteria is:
+          </p>
+          <div class="list">
+            <ul>
+              <li>Would the product (potentially)suffer in the long term if this idea was removed?</li>
+              <li>Is this idea required in order to improve the product?</li>
+
+            </ul>
+          </div>
+
+          <p>
+            <b>Non-value adding ideas</b>
+          </p>
+          <p>
+            Everything else besides value-adding ideas and product value-adding ideas.
+          </p>
+
+
+          <img class="research_picture" src="ekomsu/research/value_added.png" />
+
+          <div class="quote">
+            <span>
+        "Identifying and classifying the ideas as shown above showed me the possible way for the product feature roadmap."
+  </span>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="subtitle-frame">
+            <span>Designing pathways</span>
+          </div>
+          <p>
+            Documenting the process needed to achieve user goals and defining how execute the ideas identified through mind mapping was my goal when I started to create user flow diagrams.
+          </p>
+          <p>
+            I outlined the steps that the user has to take for different scenarios. And below, you can see some of all the diagrams I created.
+          </p>
+
+          <div class="row">
+
+            <div class="col-md-6">
+              <img class="research_picture myImg" src="ekomsu/research/sign_up.png" height="90%" width="70%" />
+            </div>
+
+            <div class="col-md-6">
+              <img class="research_picture myImg" src="ekomsu/research/suggestions.png" />
+            </div>
+          </div>
+          <p class="text-center" style="  font-size: 12px; color: #595959;">-Please click on pictures to zoom.-</p>
+          <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
           </div>
 
 
         </div>
-
-        <div class="section" style="margin-bottom:104px;">
+        <div class="tag">
+          <span>PROTOTYPE</span>
+        </div>
+        <div class="section">
           <div class="subtitle-frame">
-            <span>Flow</span>
+            <span>Creating the structure and the direction</span>
           </div>
-          <p>
-            Getting more deeper into the people's issues, I decided on a solution for what features the project will have. After that, I started to design the flow for general and specific use cases to think about how users arrive at the website and where they’ll
-            go next.
-          </p>
-          <img class="chart" src="ekomsu/userflow.png" />
+          <div class="row">
+            <div class="col-md-6">
+              <img class="research_picture myImg" src="ekomsu/research/sitemap.png" />
+
+              <p>
+                To understand and show the visual representation of the navigation features and hierarchy I created a sitemap.
+              </p>
+
+            </div>
+
+            <div class="col-md-6">
+              <img class="research_picture" src="ekomsu/research/sketch.png" />
+              <p>
+                After creating sitemap, I started to sketch how the content will be shown on each screen. Because of time pressure, I jumped straight from sketching to prototyping.
+              </p>
+
+            </div>
+          </div>
+
         </div>
 
 
@@ -240,8 +424,8 @@
             <div class="subtitle-frame">
               <span>Have to choose your street, sir!</span>
             </div>
-            <p>The project narrows users' networks to people who live in their street, not the other people living in other areas. So they must choose the street they live on.
-            </p>
+            <p>
+              The project narrows users' networks to people who live in their street, not the other people living in other areas. So they must choose the street they live on. </p>
             <p>
               But, as a negative point, improving the user registration process for users' security and privacy is an important thing in the project to consider for the future.
             </p>
@@ -321,10 +505,9 @@
             <div class="subtitle-frame">
               <span>Focusing on their social life</span>
             </div>
-            <p>One of the problems that was shared across the people I interviewed was that<b> there isn't too much opportunity for their social life around their neighborhood.</b> Actually, they didn't know what was going on.
-            </p>
+
             <p>
-              Therefore, it made sense to think that it was necessary to add three pages below into this project.
+              There are three pages for their social activites.
             </p>
 
             <div class="list">
@@ -392,8 +575,7 @@
             <p>
               When we lost an item or are a victim of theft and that kind of safety problems, it's important to take action quickly. </p>
             <p>
-              So to check and share security alerts, lost pets, and items quickly, there should be a page for these kinds of issues in the project. Because <b>security problems are one of the topics that they're talking about during the interviews.</b>
-            </p>
+              So to check and share security alerts, lost pets, and items quickly, there should be a page for these kinds of issues in the project.
 
 
           </div>
@@ -407,15 +589,14 @@
             <span>Thinking about the work I've done here</span>
           </div>
           <p>
-            When<b> studying information systems engineering but want to switch to a design career,</b> this project was a great opportunity for me to be able to see the design processes within six months. </p>
-
-          <p>
-            It was too easy for me to<b> get caught in the trap of focusing on “making it beautiful”</b> without attaching importance to the actual purpose of the design. But just because something is useful doesn't make it beautiful and just because
-            something looks good doesn't mean it's useful. So I hope I've kept a balance between both sides.
-          </p>
-          <p>
-            Also, despite all the things I did, of course, there were some parts that I didn't do such as usability testing from early development until the last part. In the end, the learning process is still going on for me. </p>
-          </p>
+            When studying information systems engineering but want to switch to a design career, this project was a great opportunity for me to be able to experience the design thinking processes within six months. But because of time pressure, I didn't do usability
+            testing from early development until the last part.
+            <p>
+              Also, it was too easy for me to get caught in the trap of focusing on “making it beautiful” without attaching importance to the actual purpose of the design. I hope I've kept a balance between both sides.
+            </p>
+            <p>
+              In the end, the learning process is still going on for me.
+            </p>
 
 
         </div>
@@ -423,6 +604,10 @@
 
       </div>
     </div>
+
+
+
+    <script type="text/javascript" src="js/modal.js"></script>
 
   </body>
 
