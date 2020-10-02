@@ -24,14 +24,16 @@
 }
 
 .quickfact{
-  margin: 20px 0px 20px 0px;
-  /*
-  border-bottom: 1.1px solid #595959 ;
-   border-top:1.1px solid #595959;
-   */
+  margin-top: 20px;
+    /*
+    background-color: #EFF5F6;
+    border-bottom: 1.1px solid #595959 ;
+     border-top:1.1px solid #595959;
+  */
 
-  padding: 8px 0px 8px 0px;
-
+    background-color: #F8F8F9;
+    padding:20px;
+    border-radius: 8px;
 }
 
 .quickfact span{
@@ -40,7 +42,7 @@
   font-weight:700;
   font-size: 16px;
   line-height: 21px;
-  color: #595959;
+  color: #485359;
 }
 
 .quickfact p{
@@ -51,6 +53,7 @@
   line-height: 23px;
   color: #595959;
   margin-bottom: 0px;
+  margin-top: 6px;
 }
 .section {
   margin-bottom: 56px;
