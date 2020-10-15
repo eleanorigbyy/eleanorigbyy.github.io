@@ -1,5 +1,5 @@
 .section{
-  margin-bottom: 24px;
+
 
 /*  display: flex;
   align-items: center; */
@@ -9,7 +9,9 @@ border-radius: 20px;
 
 .divider{
   border-top: 1px solid #B3BAC5;
-  margin-bottom: 24px;
+  margin-bottom: 22px;
+  margin-top: 28px;
+
 }
 
 .section p{
