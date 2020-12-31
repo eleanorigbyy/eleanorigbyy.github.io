@@ -1,7 +1,7 @@
 .title {
   color: #424242;
   font-size: 32px;
-  font-family: 'Nunito', sans-serif;
+  font-family:lora;
   font-weight: 700;
 
 }
@@ -26,7 +26,7 @@
   font-size: 17px;
   line-height: 23px;
   color: #424242;
-  
+
 }
 
 .subtitle-frame {
