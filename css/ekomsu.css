@@ -1,6 +1,6 @@
 .title {
   color: #424242;
-  font-size: 32px;
+  font-size: 28px;
   font-family: lora;
   font-weight: 700;
 
@@ -39,7 +39,7 @@ color: #1F8476;
 
 }
 .quickfact span{
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight:700;
   font-size: 16px;
@@ -48,7 +48,7 @@ color: #1F8476;
 }
 
 .quickfact p{
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -62,10 +62,10 @@ color: #1F8476;
 }
 
 .section h3{
-  font-family: Nunito;
+  font-family: Nunito sans;
 font-style: normal;
 font-weight: bold;
-font-size: 18px;
+font-size: 16px;
 line-height: 25px;
 color: #595959;
 padding-bottom:8px;
@@ -80,7 +80,7 @@ margin-top: 50px;
 margin-bottom: 50px;
 }
 .quote span{
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight:500;
   font-size: 24px;
@@ -89,7 +89,7 @@ text-align: center;
 }
 
 .section p {
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -110,7 +110,7 @@ text-align: center;
 
 .subtitle-frame span {
   width: 100%;
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-size: 20px;
   font-weight: bold;
   padding-left: 8px;
@@ -138,7 +138,7 @@ padding:24px;
  }
 
 .question-frame span{
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight:600;
   font-size: 16px;
@@ -161,7 +161,7 @@ padding:24px;
 }
 
 .gif-section  a {
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -184,7 +184,7 @@ a:hover {
 }
 
 .list ul{
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
