@@ -17,7 +17,7 @@ margin-bottom:100px;
 }
 
 .section p{
-  font-family: Nunito;
+  font-family: Nunito sans;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -62,7 +62,7 @@ color: #FFFFFF;
 
 .hashtag{
 
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight: 600;
   font-size: 11px;

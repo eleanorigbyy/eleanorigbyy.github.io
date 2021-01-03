@@ -23,7 +23,7 @@
 }
 
 .categories span{
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -37,7 +37,7 @@
 }
 
 .section .title a{
-  font-family:nunito;
+  font-family:nunito sans;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -73,7 +73,7 @@ margin-right:8px;
 }
 
 .section .definition p {
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

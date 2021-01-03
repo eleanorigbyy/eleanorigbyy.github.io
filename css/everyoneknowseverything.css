@@ -12,7 +12,7 @@
 
 
 .section p {
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -34,7 +34,7 @@
 
 .subtitle-frame span {
   width: 100%;
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-size: 20px;
   font-weight: bold;
   padding-left: 8px;

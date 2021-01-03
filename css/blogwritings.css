@@ -1,7 +1,7 @@
 .title {
   color: #424242;
-  font-size: 32px;
-  font-family:lora;
+  font-size: 28px;
+  font-family:Nunito sans;
   font-weight: 700;
 
 }
@@ -11,7 +11,7 @@
 }
 
 .section p {
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -20,7 +20,7 @@
 }
 
 .question-frame p{
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight:700;
   font-size: 17px;
@@ -40,7 +40,7 @@
 
 .subtitle-frame span {
   width: 100%;
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-size: 20px;
   font-weight: bold;
   padding-left: 8px;
@@ -60,7 +60,7 @@
 
 .answer-frame span {
 
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-size: 16px;
   font-weight: bold;
   padding-left: 8px;
@@ -86,7 +86,7 @@ background-color: #F9C9C6;
 }
 
 .gif-section div a {
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -108,7 +108,7 @@ a:hover {
 }
 
 .list ul{
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

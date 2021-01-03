@@ -1,7 +1,7 @@
 .title {
   color: #424242;
-  font-size: 32px;
-  font-family: lora;
+  font-size: 28px;
+  font-family: Nunito sans;
   font-weight: 700;
 
 }
@@ -13,7 +13,7 @@
   padding: 4px 8px;
   background: #DDEDEA;
   border-radius: 4px;
-  font-family: Nunito;
+  font-family: Nunito sans;
 
   font-weight:800;
   font-size: 10px;
@@ -37,7 +37,7 @@
 }
 
 .quickfact span{
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight:700;
   font-size: 16px;
@@ -46,7 +46,7 @@
 }
 
 .quickfact p{
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -60,7 +60,7 @@
 }
 
 .section h3{
-  font-family: Nunito;
+  font-family: Nunito sans;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
@@ -78,7 +78,7 @@ margin-top: 50px;
 margin-bottom: 50px;
 }
 .quote span{
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight:500;
   font-size: 24px;
@@ -87,7 +87,7 @@ text-align: center;
 }
 
 .section p {
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -106,7 +106,7 @@ text-align: center;
 
 .subtitle-frame span {
   width: 100%;
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-size: 20px;
   font-weight: bold;
   padding-left: 8px;
@@ -137,7 +137,7 @@ text-align: center;
   text-align: center;
 }
 .picture_definiton span {
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -147,7 +147,7 @@ text-align: center;
 }
 
 .question-frame span{
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -166,7 +166,7 @@ text-align: center;
 }
 
 .gif-section div a {
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -190,7 +190,7 @@ a:hover {
 }
 
 .list ul{
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

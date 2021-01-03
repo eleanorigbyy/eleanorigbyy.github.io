@@ -7,7 +7,7 @@ margin-bottom:20px;
 }
 
 .definition{
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -41,7 +41,7 @@ text-align: center;
 
 .getintouch{
   font-size: 17px;
-    font-family: Nunito;
+    font-family: Nunito sans;
   font-weight:700;
   color:#FEC269;
 text-align: left;
@@ -51,7 +51,7 @@ margin-top: 35px;
 .accountlink{
   color: #595959;
   font-size: 14px;
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-weight:700;
 
 text-align: center;
@@ -72,7 +72,7 @@ a:hover {
 
 
 .list ul{
-  font-family: Nunito;
+  font-family: Nunito sans;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

@@ -1,7 +1,7 @@
 .title {
   color: #424242;
   font-size: 28px;
-  font-family: lora;
+  font-family:Nunito;
   font-weight: 700;
 
 }
@@ -14,7 +14,7 @@
 padding: 4px 8px;
 background: #DDEDEA;
 border-radius: 4px;
-font-family: Nunito;
+font-family: Nunito sans;
 
 font-weight:800;
 font-size: 10px;
