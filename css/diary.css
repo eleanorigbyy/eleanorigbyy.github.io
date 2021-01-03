@@ -207,7 +207,7 @@ a:hover {
   display: block;
 border-radius: 5px;
 
-  box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.085);
+  border: 1px solid #DFE1E6;
 }
 .research_picture {
   max-width: 100%;
@@ -217,7 +217,7 @@ border-radius: 5px;
 margin-bottom: 32px;
 }
 .slide {
-  box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.085);
+  border: 1px solid #DFE1E6;
 border-radius: 5px;
 }
 
