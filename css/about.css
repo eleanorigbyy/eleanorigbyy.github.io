@@ -1,6 +1,6 @@
 .picture{
-  max-width:22%;
-  max-height:22%;
+  max-width:100%;
+  max-height:100%;
 
 margin-bottom:20px;
 
@@ -10,51 +10,32 @@ margin-bottom:20px;
   font-family: Nunito sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 23px;
-  color: #595959;
-letter-spacing: 0.008em;
+  font-size: 18px;
+  letter-spacing: 0.008em;
+
+  color: #252525;
 }
 
-.em-svg{
-  font-size:12px;
-margin-left:6px;
-  vertical-align:top;
-}
-
-.helloicon{
-  font-size:14px;
-  margin-left:7px;
-}
 
 .hi{
-  font-family:lora;
+  font-family:Raleway;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 44px;
-  color: #595959;
-text-align: center;
+  font-size: 32px;
+
+  color:  #252525;
+
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.getintouch{
-  font-size: 17px;
-    font-family: Nunito sans;
-  font-weight:700;
-  color:#FEC269;
-text-align: left;
-margin-top: 35px;
-}
 
 .accountlink{
-  color: #595959;
-  font-size: 14px;
+  color: #2684FF;
+
+  font-size: 16px;
   font-family: Nunito sans;
   font-weight:700;
-
-text-align: center;
 }
 
 a:link {
@@ -68,19 +49,4 @@ a:link {
 a:hover {
   text-decoration: none;
   color:#FEC269;
-}
-
-
-.list ul{
-  font-family: Nunito sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 23px;
-  color: #595959;
-  list-style-type: circle;
-}
-
-.list ul li{
-  padding-bottom:8px;
 }
